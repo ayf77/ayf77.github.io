@@ -20,7 +20,7 @@ main {
     height: 50vh;
 background-size: 100%;
 
-    background-image:linear-gradient(rgba(0, 0, 255, 0.459),rgba(0, 0, 255, 0.459)), url(/images/comic_blue.jpg);
+    background-image:linear-gradient(rgba(0, 0, 255, 0.459),rgba(0, 0, 255, 0.459)), url(comic_blue.jpg);
     border-top:solid black 10px;
 }
 
@@ -96,7 +96,7 @@ h4:hover {
 #capIcon {
 
     grid-area: ave1;
-    background-image: url(/images/Avenger_Icons/cap_black_crop.png);
+    background-image: url(../Avenger_Icons/cap_black_crop.png);
     background-size: 130%;
     background-position-x: -1em;
 
@@ -107,14 +107,14 @@ h4:hover {
 
 #capIcon:hover {
 
-    background-image: url(/images/Avenger_Icons/cap_red_crop.png);
+    background-image: url(../Avenger_Icons/cap_red_crop.png);
 
 }
 
 
 #ironIcon {
     grid-area: ave2;
-    background-image: url(/images/Avenger_Icons/iron_man_black.png);
+    background-image: url(../Avenger_Icons/iron_man_black.png);
     background-position-x: 2em;
     background-size: 70%;
 
@@ -123,7 +123,7 @@ h4:hover {
 
 #ironIcon:hover {
 
-    background-image: url(/images/Avenger_Icons/iron_man_red.png);
+    background-image: url(../Avenger_Icons/iron_man_red.png);
 
 }
 
@@ -131,19 +131,19 @@ h4:hover {
 #hulkIcon {
     grid-area: ave3;
 
-    background-image: url(/images/Avenger_Icons/hulk_black.png);
+    background-image: url(../Avenger_Icons/hulk_black.png);
 
 }
 
 #hulkIcon:hover {
 
-    background-image: url(/images/Avenger_Icons/hulk_red.png);
+    background-image: url(../Avenger_Icons/hulk_red.png);
 
 }
 
 #thorIcon {
     grid-area: ave4;
-    background-image: url(/images/Avenger_Icons/thor_black.png);
+    background-image: url(]../Avenger_Icons/thor_black.png);
 
     background-size: 160%;
     background-position-x: -4em;
@@ -155,30 +155,30 @@ h4:hover {
 
 #thorIcon:hover {
 
-    background-image: url(/images/Avenger_Icons/thor_red.png);
+    background-image: url(../Avenger_Icons/thor_red.png);
 
 }
 
 #widowIcon {
     grid-area: ave5;
-    background-image: url(/images/Avenger_Icons/widow_black.png);
+    background-image: url(../Avenger_Icons/widow_black.png);
 
 }
 
 #widowIcon:hover {
-    background-image: url(/images/Avenger_Icons/widow_red.png);
+    background-image: url(../Avenger_Icons/widow_red.png);
 }
 
 
 #hawkIcon {
     grid-area: ave6;
-    background-image: url(/images/Avenger_Icons/hawk_black_crop.png);
+    background-image: url(../Avenger_Icons/hawk_black_crop.png);
     background-size: 120%;
 
 }
 
 #hawkIcon:hover {
-    background-image: url(/images/Avenger_Icons/hawk_red.png);
+    background-image: url(../Avenger_Icons/hawk_red.png);
 }
 
 h4 {
@@ -212,40 +212,40 @@ h4 {
 
 #capAmericaPic {
     grid-area: picture;
-    background-image: url(/images/avengers_pictures/steve_rogers.webp);
+    background-image: url(../avengers_pictures/steve_rogers.webp);
     background-size: cover;
 }
 
 #starkPic {
     grid-area: picture;
-    background-image: url(/images/avengers_pictures/Tony_Stark.webp);
+    background-image: url(../avengers_pictures/Tony_Stark.webp);
     background-size: cover;
     background-position-x: -6em;
 }
 
 #brucePic {
     grid-area: picture;
-    background-image: url(/images/avengers_pictures/bruce_banner.webp);
+    background-image: url(../avengers_pictures/bruce_banner.webp);
     background-size:cover;
 }
 
 #thorPic {
     grid-area: picture;
-    background-image: url(/images/avengers_pictures/thor_endgame.jpg);
+    background-image: url(../avengers_pictures/thor_endgame.jpg);
     background-size: cover;
 }
 
 
 #natPic {
     grid-area: picture;
-    background-image: url(/images/avengers_pictures/black_widow.webp);
+    background-image: url(../avengers_pictures/black_widow.webp);
     background-size: cover;
 }
 
 
 #clintPic {
     grid-area: picture;
-    background-image: url(/images/avengers_pictures/hawkeye_endgame.webp);
+    background-image: url(../avengers_pictures/hawkeye_endgame.webp);
     background-size: cover;
 }
 
@@ -383,7 +383,7 @@ h6 {
     background-size: cover;
     background-position:center;
 
-    background-image: url(/images/avengers_pictures/strange_endgame.jpg);
+    background-image: url(../avengers_pictures/strange_endgame.jpg);
 }
 
 #loki:hover {
@@ -393,20 +393,20 @@ h6 {
     background-size: cover;
     background-position:center;
 
-    background-image:linear-gradient(rgba(255, 255, 255, 0.393),blue), url(/images/avengers_pictures/strange_endgame.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.393),blue), url(../avengers_pictures/strange_endgame.jpg);
 }
 #thanos {
     background-size: cover;
     background-position:center;
     /* background-size: 130%; */
-    background-image: url(/images/avengers_pictures/fury_endgame.jpg);
+    background-image: url(../avengers_pictures/fury_endgame.jpg);
 }
 
 #thanos:hover {
     background-size: cover;
     background-position:center;
     /* background-size: 130%; */
-    background-image:linear-gradient(rgba(255, 255, 255, 0.393),blue), url(/images/avengers_pictures/fury_endgame.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.393),blue), url(../avengers_pictures/fury_endgame.jpg);
     
 }
 
@@ -414,7 +414,7 @@ h6 {
     background-size: cover;
     background-position:center;
   
-    background-image: url(/images/avengers_pictures/spider_man_avengers.webp);
+    background-image: url(../avengers_pictures/spider_man_avengers.webp);
    
 }
 
@@ -422,7 +422,7 @@ h6 {
     background-size: cover;
     background-position:center;
    
-    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(/images/avengers_pictures/spider_man_avengers.webp);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(../avengers_pictures/spider_man_avengers.webp);
     
    
 }
@@ -431,7 +431,7 @@ h6 {
 background-size: cover;
 background-position:center;
 
-    background-image:url(/images/avengers_pictures/black_panther.jpg);
+    background-image:url(../avengers_pictures/black_panther.jpg);
 }
 
 #wanda:hover {
@@ -439,7 +439,7 @@ background-position:center;
     background-size: cover;
     background-position:center;
   
-    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(/images/avengers_pictures/black_panther.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(../avengers_pictures/black_panther.jpg);
     }
     
 
@@ -447,7 +447,7 @@ background-position:center;
   
     background-size: cover;
     background-position-x: -4em; 
-    background-image: url(/images/avengers_pictures/captain_marvel.jpg);
+    background-image: url(../avengers_pictures/captain_marvel.jpg);
 }
 
 #killmonger:hover {
@@ -455,7 +455,7 @@ background-position:center;
     background-position-x: -4em; 
     background-size: cover;
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(/images/avengers_pictures/captain_marvel.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(../avengers_pictures/captain_marvel.jpg);
 }
 
 #mysterio {
@@ -471,7 +471,7 @@ background-position:center;
     /* background-size: 170%;
     background-position-x: -4em; */
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(/images/avengers_pictures/ant_man_endgame.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.393),blue),url(../avengers_pictures/ant_man_endgame.jpg);
 }
 
 
