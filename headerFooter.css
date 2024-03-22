@@ -67,7 +67,7 @@ header {
     width:95%;
  
   
-    background-image:url('../images/blue_lines_glow.png');
+    background-image: url("..blue_lines_glow.png");
     background-attatchment:fixed;
     background-size:cover;
     background-position: center;
