@@ -1,0 +1,193 @@
+header {
+    background: rgb(70, 118, 206);
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: "MarLogo pages contactIcons";
+
+  
+        font-size: 1.3em;
+
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+#headerLogo {
+
+   
+    grid-area: MarLogo;
+    max-width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding: 10px;
+
+    
+
+}
+
+#headerLogoSmall {
+    display:none;   
+    grid-area: MarLogo;
+    max-width:50%;
+    margin:auto;
+    
+
+}
+
+#logosBar {
+    grid-area: contactIcons;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right:2em;
+ 
+}
+
+.contacts{
+
+    background: red;
+    max-width:8%;
+    border-radius:15px;
+    padding:0.5em;
+    margin-left:1em;
+    float:right;
+
+
+}
+
+#linksBar {
+    display: grid;
+    align-items: center;
+    text-align:center;
+    margin-left:3em;
+
+    width:95%;
+ 
+  
+    background-image:url("/images/blue_lines_glow.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+
+.navTabs {
+
+
+ color:white;
+padding-left:40px;
+padding-right:40px;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+  
+}
+a:visited{
+    text-decoration: underline;
+}
+
+
+.phoneLink{
+
+    grid-column: span 3;
+
+}
+
+
+
+.phoneLink >a{
+    display:block;
+    background-color: #ddd;
+    padding: 5px;
+    text-align:center;
+    
+
+}
+.hiddenLinks {
+    display:none;
+}
+
+button {
+    display:none;
+}
+
+/*footer*/
+
+
+footer{
+  
+  
+    background-color: black;
+   
+
+}
+
+#footerLogo {
+  display:flex;
+   max-width:10%;
+  
+    padding-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#footerPara{
+    color:white;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 1100px) {
+
+    
+    button {
+        display: block;
+    }
+    #linksBar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    
+    #logosBar{
+        display:none;
+    }
+
+   .navTabs{padding-left:10px;
+padding-right:10px;
+
+   }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    
+    #headerLogo{
+        display:none;
+    }
+
+   #headerLogoSmall{
+
+    display:block;
+
+   }
+
+}
+

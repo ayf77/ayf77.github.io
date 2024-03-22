@@ -1,0 +1,104 @@
+/*Header*/
+
+main {
+    background-image:linear-gradient(black,black,black,blue);
+    margin-top: 0.8em;
+    display:grid;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+/*end of header*/
+
+#movieTitle {
+    font-size:7em;
+    color:white;
+    margin-top:4.5em;
+    margin-left:0.5em;
+    margin-bottom:1em;
+}
+
+#showTitle {
+    font-size:7em;
+    color:white;
+    margin-top:1em;
+    margin-left:0.5em;
+    margin-bottom:1em;
+}
+
+#MovieGrid {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    row-gap: 1.5em;
+  
+  
+}
+
+.movieIcon {
+   width:200px;
+
+    transition: transform .2s
+    
+}
+
+.movieIcon:hover{
+    transform:scale(1.2);
+    box-shadow: 1px 3px 10px rgb(33, 86, 177);
+}
+
+#tvGrid {
+    margin-top:1em;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    row-gap: 1.5em;
+    margin-bottom:5em;
+  
+  
+}
+
+.showIcon {
+    width:200px;
+
+    transition: transform .2s
+ }
+ 
+ .showIcon:hover{
+     transform:scale(1.2);
+     transform:scale(1.2);
+     box-shadow: 1px 3px 10px rgb(68, 188, 240);
+ }
+
+
+
+
+
+#videoBanner{
+    height:50vh;
+   
+}
+
+#videoImage {
+    max-width:100%;
+    object-fit:contain;
+  
+}
+
+@media screen and (max-width:420px) {
+   #showTitle{text-align:center;
+}
+}
+
+
+
+
+
+
+  

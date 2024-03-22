@@ -1,10 +1,145 @@
 <!DOCTYPE html>
-<html lang = "en">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <title>My Website</title>
-  </head>
-  <body>
-    <h1>My Website</h1>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='stylesheet' href='styles/reset.css'>
+    <link rel='stylesheet' href='styles/style.css'>
+    <link rel='stylesheet' href='styles/headerFooter.css'>
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="/images/logo_m.png">
+    <title>Marvel - Homepage</title>
+</head>
+
+<body>
+    <header>
+        <img src="/images/Marvel_Logo.png" id="headerLogo" alt="Marvel Logo">
+        <img src="/images/logo_m.png" id="headerLogoSmall" alt="Marvel Logo">
+        <nav id="linksBar">
+            <div id="navBar">
+                <a class="navTabs" href="index.html">HOME</a>
+                <a class="navTabs" href="characters.html">CHARACTERS</a>
+                <a class="navTabs" href="entertainment.html">MOVIES & TV SHOWS</a>
+                <a class="navTabs" href="games.html">GAMES</a>
+            </div>
+        </nav>
+
+        <button onclick="toggleMobileMenu()">MENU</button>
+        <nav id="mobileMenu" class="phoneLink hiddenLinks">
+            <a href="index.html">HOME</a>
+            <a href="characters.html">CHARACTERS</a>
+            <a href="entertainment.html">MOVIES & TV SHOWS</a>
+            <a href="games.html">GAMES</a>
+        </nav>
+
+        <div id="logosBar">
+            <img class="contacts" src="images/Instagram_logo_cropped.png" alt = "instagram logo">
+            <img class="contacts" src="images/x_logo.png" alt="x logo">
+            <img class="contacts" src="images/youtube_logo.webp" alt="youtube logo">
+        </div>
+
+    </header>
+
+    <main>
+       <div class="slider">
+
+        <img id ="image1" src="/images/avengers_banner.jpg" alt="The Avengers">
+        <img id ="image2" src="/images/marvel_banner.jpg" alt ="Marvel Banner Logo">
+        <img id ="image3" src="/images/endgame_banner.jpg" alt="Marvel Characters">
+
+
+       </div>
+
+       <div class="bannerButtons">
+        <span class="circle current" onclick="changeSlide(0)"></span>
+        <span class="circle" onclick="changeSlide(1)"></span>
+        <span class="circle" onclick="changeSlide(2)"></span>
+       </div>
+
+       <div id="mainGrid">
+
+        
+
+        <div id="title1"><h3>The Marvel Cinematic Universe</h3></div>
+
+       <div id="mcuPara">
+        <p>The Marvel Cinematic Universe or the MCU is a media franchise created by
+             Marvel Studios and set primarily in a shared universe, with some installments
+              also set in adjacent or branching realities. Starting with Iron Man, the
+               franchise is comprised mainly of films independently made by Marvel
+                Studios, that are primarily set within this same universe, much like Marvel has done 
+                with their comics.</p>
+            </div> 
+
+            <div id="mcuPicture"><img src="/images/avengers_logo_steel.png" alt ="Avengers steel logo"></div>
+            
+
+            <div id="marvelSaga"> <h3>The Infinity Saga</h3></div>   
+
+                <div id="sagaPara">
+                <p>The Infinity Saga is the name given to the overarching storyline comprising 
+                    of the original twenty-three films in the Marvel Cinematic Universe, with 
+                    the primary focus being around the Infinity Stones, a collection of six powerful 
+                    objects, with each individually controlling a different aspect of the universe.
+                     The primary antagonist of the saga, the extraterrestrial warlord Thanos, who
+                      made it his goal to collect all the stones and use them to exterminate half 
+                      of the universe's inhabitants, believing that it would spare the universe from 
+                      being destroyed by overpopulation. His primary opposition is the team of 
+                      superheroes known as the Avengers.</p>
+                    </div>
+                    <div id="gauntlet"><img src="/images/inf_gauntlet.png" alt="infinity gauntlet"></div>
+
+                   <div id="soonTitle"> <h3>COMING SOON</h3></div>
+
+                   <div id="phase5"><h4>PHASE 5</h4></div>
+                   <div id="phase6"><h4>PHASE 6</h4></div>
+
+                  <div class = "phaseMovie" id="dpAndWolverine"><img src="/images/phases/dp_wolverine.jpg_large" alt="Deadpool and wolverine"></div> 
+                  <div  class = "phaseMovie" id="braveNewWorld"><img src="/images/phases/cap_brave_world.webp" alt="Captain america breave new world"></div> 
+                  <div  class = "phaseMovie"id="kangDynasty"><img src="/images/phases/Avengers_The_Kang_Dynasty_Logo.webp" alt="Avengers: The kang Avengers_The_Kang_Dynasty_Logo"></div> 
+                  <div  class = "phaseMovie"id="secretWars"><img src="/images/phases/Avengers_Secret_Wars_Logo.webp" alt="avengers: secret wars"></div> 
+
+                  <div id="exploreTitle"><h3>EXPLORE</h3></div>
+                  <div id="bottomLinks">
+                    <a href="characters.html">Characters</a>
+                    <a href="entertainment.html">Movies and TV SHOWS</a>
+                    <a href="games.html">GAMES</a>
+                  </div>
+
+           
+
+        
+
+       </div>
+
+
+
+    </main>
+
+    <footer>
+
+      
+        <img src = "/images/Marvel_Logo.png" id ="footerLogo" alt = "Marvel Logo">
+       <p id="footerPara"> &copy; Marvel 2024, All Rights Reserved</p>
+
+</footer>
+
+
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+
 </html>
