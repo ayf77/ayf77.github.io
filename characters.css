@@ -143,7 +143,7 @@ h4:hover {
 
 #thorIcon {
     grid-area: ave4;
-    background-image: url(]../Avenger_Icons/thor_black.png);
+    background-image: url(../Avenger_Icons/thor_black.png);
 
     background-size: 160%;
     background-position-x: -4em;
@@ -463,7 +463,7 @@ background-position:center;
 
      /* background-size: 170%; */
     background-position-x: -5em;
-    background-image: url(/images/avengers_pictures/ant_man_endgame.jpg);
+    background-image: url(../avengers_pictures/ant_man_endgame.jpg);
 }
 
 #mysterio:hover {
