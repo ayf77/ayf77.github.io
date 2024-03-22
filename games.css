@@ -83,7 +83,7 @@ nav {
 
 
 #gamesBanner {
-    background-image: linear-gradient(rgba(255, 0, 0, 0.7),rgba(255, 0, 0, 0.7)), url(/images/dot_pattern.jpg);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.7),rgba(255, 0, 0, 0.7)), url(dot_pattern.jpg);
     background-size: 30%;
     font-size:6em;
     font-family: "Bebas Neue", sans-serif;
@@ -229,7 +229,7 @@ transition: 0.3s;
 }
 
 #spiderDiv {
-    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)),url(/images/spider_city.jpg);
+    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)),url(../game_backgrounds/spider_city.jpg);
    background-size:cover;
    margin-top:0.2em;
 
@@ -237,28 +237,28 @@ transition: 0.3s;
 }
 
 #fortniteDiv {
-    background-image:  linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)),url(/images/fortnite_wallpaper.webp);
+    background-image:  linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)),url(../game_backgrounds/fortnite_wallpaper.webp);
     background-size:cover;
   
 
 }
 
 #marSnap{
-    background-image:linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)),url(/images/marvel_snap.png); 
+    background-image:linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)),url(../game_backgrounds/marvel_snap.png); 
    
 }
 
 #contChamp {
-    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)), url(/images/contest_champions.jpg);
+    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)), url(../game_backgrounds/contest_champions.jpg);
     background-size: cover;
 }
 #guardiansGalaxy {
-    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)), url(/images/guardians_game.webp);
+    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)), url(../game_backgrounds/guardians_game.webp);
     background-size: cover;
 }
 
 #avengersGameWallpaper{
-    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)), url(/images/avengers_game_wallpaper.jpg);
+    background-image: linear-gradient(rgba(0, 149, 255, 0.9),rgba(0, 0, 255, 0.7),rgba(0, 0, 255, 0.6)), url(../game_backgrounds/avengers_game_wallpaper.jpg);
     background-size: cover;
 }
 
